@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: "Pacifico";
+}
+
+/* #region header*/
+
+header {
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.burger {
+    width: 18vw;
+    height: 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.burger div {
+    width: 15vw;
+    height: 0px;
+    border: 16px solid #FF9386;
+}
+
+header img {
+    width: 70vw;
+    height: 13vh;
+    position: relative;
+    top: -3%;
+}
+
+/* #endregion */
+
+.barre {
+    width: 100%;
+    height: 5vh;
+    background-color: wheat;
+}
+
+.banniere {
+    width: 100%;
+    height: 40vh;
+}
+
+/* #region main */
+
+main {
+    background-color: #FFF3DD;
+    width: 100%;
+    height: 300vh;
+    display: flex;
+    justify-content: center;
+    margin-top: -6px;
+}
+
+.center {
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.vignette {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    background-color: #FFF3DD;
+    height: 45vh;
+    border-radius: 75px;
+}
+
+.vignette img {
+    width: 100%;
+    height: 45%;
+    border-radius: 75px 75px 0px 0px;
+}
+
+.thriller {
+    object-fit: cover;
+}
+
+.vignette h2 {
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    border-bottom: solid 2px black;
+    width: 100%;
+}
+
+.vignette p {
+    font-size: 2.5em;
+    width: 80%;
+    margin: 0;
+    text-align: justify;
+}
+
+
+
+/* #endregion */
+
+/* #region footer */
+
+footer {
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: 10% 50% 30% 10%;
+    grid-template-rows: 20% 80%;
+}
+
+nav {
+    grid-column-start:2 ;
+}
+
+footer ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    font-size: 3em;
+}
+
+footer p {
+    margin: 0;
+    grid-column-start: 3;
+    font-size: 3em;
+
+}
+
+footer p a {
+    color: black;
+    text-decoration:none;
+}
+/* #endregion */
