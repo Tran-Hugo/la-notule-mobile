@@ -117,8 +117,7 @@ main {
 footer {
     background-color: wheat;
     display: grid;
-    grid-template-columns: 10% 50% 30% 10%;
-    grid-template-rows: 20% 80%;
+    grid-template-columns: 10% 50% 40%;
 }
 
 nav {
@@ -129,13 +128,17 @@ footer ul {
     margin: 0;
     list-style-type: none;
     padding: 0;
-    font-size: 3em;
+    font-size: 3.5em;
+}
+
+footer ul li a {
+    color: black;
 }
 
 footer p {
     margin: 0;
     grid-column-start: 3;
-    font-size: 3em;
+    font-size: 3.5em;
 
 }
 
