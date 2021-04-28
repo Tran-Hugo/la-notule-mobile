@@ -11,12 +11,27 @@
 </head>
 <body>
     <header>
-        <a href="#menu">
+        <nav class="burnav">
+            <form>
+                <input type="text" id="search" value="Rechercher...">
+            </form>
+            <ul>
+                <li><a href="#">Se connecter</a></li>
+                <li><a href="#">S'inscrire</a></li>
+                <li><a href="#">Panier (0)</a></li>
+                <li><a href="#">La Boutique</a></li>
+                <li><a href="#">Contactez nous</a></li>
+                <li><a href="#">À Propos</a></li>
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="#">F.A.Q</a></li>
+            </ul>
+        </nav>
+        <!-- <a href="#menu"> -->
         <div class="burger">
             <div></div>
             <div></div>
             <div></div>
-        </div></a>
+        </div>
         <img src="images/logo.svg" alt="logo.svg">
     </header>
     <div class="barre"></div>
@@ -73,6 +88,8 @@
         </nav>
         <P><a href="#">retour en haut</a></P>
     </footer>
-
+    <script>
+        document.querySelector(".burger").addEventListener("click",()=> document.querySelector(".burnav").classList.toggle('open'));
+    </script>
 </body>
 </html>
