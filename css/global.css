@@ -105,6 +105,7 @@ footer {
     background-color: wheat;
     display: grid;
     grid-template-columns: 10% 50% 40%;
+    grid-template-rows: 35%;
 }
 
 footer nav {
@@ -132,5 +133,14 @@ footer p {
 footer p a {
     color: black;
     text-decoration:none;
+}
+
+.icone {
+    display: flex;
+    justify-content: space-around;
+    grid-column-start: 3;
+}
+.fab {
+    font-size: 6em;
 }
 /* #endregion */
