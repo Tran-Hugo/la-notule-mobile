@@ -47,67 +47,7 @@ header img {
     background-color: wheat;
 }
 
-.banniere {
-    width: 100%;
-    height: 40vh;
-}
-
 /* #region main */
-
-main {
-    background-color: #FFF3DD;
-    width: 100%;
-    height: 300vh;
-    display: flex;
-    justify-content: center;
-    margin-top: -6px;
-}
-
-.center {
-    width: 80%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 5%;
-}
-
-.vignette {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 75%;
-    background-color: #FFF3DD;
-    height: 45vh;
-    border-radius: 75px;
-}
-
-.vignette img {
-    width: 100%;
-    height: 45%;
-    border-radius: 75px 75px 0px 0px;
-}
-
-.thriller {
-    object-fit: cover;
-}
-
-.vignette h2 {
-    text-align: center;
-    font-size: 3em;
-    margin: 0;
-    border-bottom: solid 2px black;
-    width: 100%;
-}
-
-.vignette p {
-    font-size: 2.5em;
-    width: 80%;
-    margin: 0;
-    text-align: justify;
-}
-
 
 
 /* #endregion */
