@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
     margin: 0;
+    width: 100%;
 }
 
 * {
@@ -11,9 +13,9 @@ body {
 /* #region header*/
 
 .burnav {
-    position: absolute;
+    position: fixed;
     left: 0;
-    top: 355px;
+    top: 21vh;
     width: 85vw;
     height: 79vh;
     background-color: #FFF3DD;
@@ -32,25 +34,26 @@ body {
 }
 
 .burnav form {
-    padding-left: 70px;
+    padding-left: 40px;
 }
 .burnav form input {
     width: 85%;
     height: 5vh;
-    font-size: 4em;
-    border-radius: 35px;
+    font-size: 1.8em;
+    border-radius: 10px;
     color: #03989e;
 }
 
 .burnav ul {
     list-style-type: none;
-    padding-left: 70px;
-    font-size: 5.5em;
+    padding-left: 40px;
+    font-size: 1.8em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin: 0;
     height: 80%;
+    margin-top: -5vh;
 }
 
 .burnav ul li a {
@@ -59,16 +62,24 @@ body {
 
 
 header {
-    width: 100%;
+    width: 100vw;
     height: 16vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: white;
+    position: fixed;
+    border-bottom: solid 5vh wheat;
 }
 
-.burger {
+.fas.fa-bars {
+    font-size: 4em;
+    color: #fa8072;
+}
+
+/* .burger {
     width: 18vw;
-    height: 144px;
+    height: 73px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -77,23 +88,19 @@ header {
 .burger div {
     width: 15vw;
     height: 0px;
-    border: 16px solid #FF9386;
-}
+    border: 9px solid #FF9386;
+    background-color: #FF9386;
+} */
 
 header img {
     width: 70vw;
     height: 13vh;
     position: relative;
     top: -3%;
+    left: -;
 }
 
 /* #endregion */
-
-.barre {
-    width: 100%;
-    height: 5vh;
-    background-color: wheat;
-}
 
 /* #region main */
 
@@ -117,7 +124,7 @@ footer ul {
     margin: 0;
     list-style-type: none;
     padding: 0;
-    font-size: 3.5em;
+    font-size: 1.5em;
 }
 
 footer ul li a {
@@ -127,7 +134,7 @@ footer ul li a {
 footer p {
     margin: 0;
     grid-column-start: 3;
-    font-size: 3.5em;
+    font-size: 1.4em;
 
 }
 
@@ -142,6 +149,31 @@ footer p a {
     grid-column-start: 3;
 }
 .fab {
-    font-size: 6em;
+    font-size: 2em;
 }
 /* #endregion */
+
+@media screen and (min-width: 768px) {
+    .fas.fa-bars {
+        font-size: 6em;
+    }
+
+    .burnav form input {
+        font-size: 3em;
+    }
+    
+    .burnav ul {
+        font-size: 3em;
+    }
+
+    footer ul {
+        font-size: 2.5em;
+    }
+
+    footer p  {
+        font-size: 2.4em;
+    }
+    .fab {
+        font-size: 4em;
+    }
+}
