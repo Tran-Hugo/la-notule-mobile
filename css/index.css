@@ -96,4 +96,8 @@ main {
     .accueil {
         color: #fa8072 !important;
     }
+
+    .banniere {
+        margin-top: 0;
+    }
 }

@@ -12,6 +12,10 @@ body {
 
 /* #region header*/
 
+.haut {
+    display: none;
+}
+
 .burnav {
     position: fixed;
     left: 0;
@@ -62,7 +66,7 @@ body {
 
 
 header {
-    width: 100vw;
+    width: 100%;
     height: 16vh;
     display: flex;
     align-items: center;
@@ -89,27 +93,19 @@ header {
     color: #fa8072;
 }
 
-/* .burger {
-    width: 18vw;
-    height: 73px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.burger div {
-    width: 15vw;
-    height: 0px;
-    border: 9px solid #FF9386;
-    background-color: #FF9386;
-} */
-
 header img {
     width: 70vw;
     height: 13vh;
     position: relative;
     top: -3%;
-    left: -;
+}
+
+header h1 {
+    display: none;
+}
+
+header form {
+    display: none;
 }
 
 /* #endregion */
@@ -192,6 +188,8 @@ footer p a {
 
 @media screen and (min-width: 1024px) {
     
+    /* #region header desktop*/
+
     .barre nav ul {
         display: flex;
         list-style-type: none;
@@ -226,4 +224,64 @@ footer p a {
     .burnav {
         display: none;
     }
+
+    header {
+        position: static;
+        flex-wrap: wrap;
+    }
+    
+
+    header .haut {
+        height: 3vh;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    header .haut .btn {
+        display: flex;
+        justify-content: space-between;
+        width: 9%;
+    }
+
+    header .haut .btn p {
+        margin: 0;
+    }
+
+    header img {
+        width: 12vw;
+        height: 7vh;
+    }
+
+    header h1 {
+        display: block;
+        font-size: 5em;
+        margin: 0;
+        height: 11vh;
+        color: #fa8072;
+        position: relative;
+        top: -13%;
+    }
+
+    header form {
+        display: block;
+        width: 16vw;
+        position: relative;
+        top: 3%;
+    }
+
+    header form input {
+        width: 15vw;
+        font-size: 1.1em;
+        border-radius: 10px;
+        color: #03989e;
+    }
+    
+    .barre {
+        position: static;
+    }
+
+    /* #endregion */
+
+
 }
