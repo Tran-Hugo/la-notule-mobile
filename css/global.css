@@ -238,15 +238,22 @@ footer p a {
         justify-content: flex-end;
     }
 
-    header .haut .btn {
+    header .haut ul {
         display: flex;
         justify-content: space-between;
-        width: 9%;
+        /* width: 9%; */
+        width: 16%;
+        list-style-type: none;
+        font-size: 1rem;
+        margin: 0;
+        padding: 0;
     }
 
-    header .haut .btn p {
-        margin: 0;
+    header .haut ul li a {
+        text-decoration: none;
+        color: black;
     }
+
 
     header img {
         width: 12vw;
@@ -265,7 +272,7 @@ footer p a {
 
     header form {
         display: block;
-        width: 16vw;
+        width: 15vw;
         position: relative;
         top: 3%;
     }
@@ -284,4 +291,10 @@ footer p a {
     /* #endregion */
 
 
+}
+
+@media screen and (min-width: 1440px) {
+    header .haut ul {
+        width: 11%;
+    }
 }

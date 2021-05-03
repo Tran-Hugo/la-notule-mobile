@@ -99,5 +99,18 @@ main {
 
     .banniere {
         margin-top: 0;
+        height: 65vh;
+        object-fit: cover;
+        object-position: 0px 32%;
     }
+
+    .vignette {
+        width: 28%;
+        height: 50vh;
+    }
+
+    .vignette p::-webkit-scrollbar {
+        display: none;
+      }
+      
 }
