@@ -90,3 +90,10 @@ main {
         font-size: 1.5em;
     }
 }
+
+
+@media screen and (min-width: 1024px) {
+    .accueil {
+        color: #fa8072 !important;
+    }
+}
