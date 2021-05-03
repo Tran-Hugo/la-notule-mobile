@@ -256,8 +256,8 @@ footer p a {
 
 
     header img {
-        width: 12vw;
-        height: 7vh;
+        width: 20vw;
+        height: 10vh;
     }
 
     header h1 {
@@ -272,7 +272,7 @@ footer p a {
 
     header form {
         display: block;
-        width: 15vw;
+        width: 16vw;
         position: relative;
         top: 3%;
     }
@@ -290,6 +290,60 @@ footer p a {
 
     /* #endregion */
 
+    /* #region footer desktop */
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 10vh;
+    }
+
+    footer nav {
+        width: 70%;
+    }
+
+    footer nav ul {
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.6em;
+    
+    }
+
+    footer nav ul li a {
+        text-decoration: none;
+    }
+
+    footer p {
+        display: none;
+    }
+
+    .fab {
+        font-size: 3em;
+    }
+
+    .icone {
+        width: 20%;
+        align-items: center;
+    }
+
+    .fab.fa-facebook {
+        color: #2d88ff;
+    }
+
+    .fab.fa-instagram {
+        background: #d6249f;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .fab.fa-twitter {
+        color: #1da1f2;
+    }
+
+
+    /* #endregion */
 
 }
 
