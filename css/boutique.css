@@ -64,7 +64,7 @@ h2 {
     text-decoration: none;
 }
 
-.hScroll.vignette {
+.vignette {
     height: 60vh;
     width: 80%;
     background-color: wheat;
@@ -74,6 +74,6 @@ h2 {
     align-items: center;
 }
 
-.hScroll.vignette img {
+.vignette img {
     height: 30vh;
 }
