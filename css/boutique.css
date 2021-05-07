@@ -64,16 +64,40 @@ h2 {
     text-decoration: none;
 }
 
+.hScroll {
+    margin-top: 2vh;
+    /* display: flex; */
+    justify-content: center;
+    overflow: scroll;
+    width: 95%;
+}
+
+.xScroll {
+    width: 300%;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
 .vignette {
     height: 60vh;
-    width: 80%;
-    background-color: wheat;
+    width: 240px;
+    background-color: #FFF3DD;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    margin-left: 8vw;
 }
 
 .vignette img {
     height: 30vh;
+}
+
+.vignette h3 {
+    margin: 0;
+}
+
+.vignette p {
+    margin: 0;
 }
