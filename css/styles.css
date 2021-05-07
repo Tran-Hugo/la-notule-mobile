@@ -1,0 +1,134 @@
+
+.banniere {
+    width: 100%;
+    height: 40vh;
+    margin-top: 21vh
+}
+
+main {
+    background-color: #FFF3DD;
+    width: 100%;
+    height: 300vh;
+    display: flex;
+    justify-content: center;
+    margin-top: -6px;
+}
+
+.center {
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.vignette {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    background-color: #FFF3DD;
+    height: 45vh;
+    border-radius: 45px;
+}
+
+.vignette img {
+    width: 100%;
+    height: 45%;
+    border-radius: 45px 45px 0px 0px;
+}
+
+.thriller {
+    object-fit: cover;
+}
+
+.fiction {
+    object-fit: cover;
+}
+
+.vignette h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    border-bottom: solid 2px black;
+    width: 100%;
+}
+
+.vignette p {
+    font-size: 1em;
+    width: 80%;
+    height: 35%;
+    margin: 0;
+    text-align: justify;
+    overflow: scroll;
+    font-family: 'Arvo';
+}
+
+.vignette p {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+
+@media screen and (min-width: 768px) {
+    main {
+        height: 125vh;
+    }
+
+    .center {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .vignette {
+        width: 45%;;
+        height: 35vh;
+    }
+
+    /* .vignette h2 {
+        font-size: 2em;
+    } */
+
+    .vignette p {
+        font-size: 1.5em;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .accueil {
+        color: #fa8072 !important;
+    }
+
+    .banniere {
+        margin-top: 0;
+        height: 65vh;
+        object-fit: cover;
+        object-position: 0px 32%;
+    }
+
+    .vignette {
+        width: 23%;
+        height: 50vh;
+        margin-inline: 2%;
+    }
+
+    .vignette:hover {
+        transform: translateY(-3%);
+        box-shadow: 10px 10px 104px -6px rgba(0,0,0,0.49);
+        -webkit-box-shadow: 10px 10px 104px -6px rgba(0,0,0,0.49);
+        -moz-box-shadow: 10px 10px 104px -6px rgba(0,0,0,0.49);
+    }
+
+    .vignette p::-webkit-scrollbar {
+        display: none;
+      }
+
+    .vignette p {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      }
+      
+}

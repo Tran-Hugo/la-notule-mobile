@@ -6,7 +6,7 @@
 	<meta name="description" content="Boutique en ligne de la librairie indépendante 'La Notule'">
 	<link rel="stylesheet" type="text/css" href="css/global.css">
 	<!--styles communs à toutes les pages-->
-	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
     <script src="https://kit.fontawesome.com/828ad8ef85.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -14,10 +14,6 @@
 <body>
     <header>
         <div class="haut">
-            <!-- <div class="btn">
-            <p>S'inscrire</p>
-            <p>Se connecter</p>
-            </div> -->
             <ul>
                 <li><a href="#">S'inscrire</a></li>
                 <li><a href="#">Se connecter</a></li>
@@ -38,7 +34,7 @@
             <li><a href="#">Se connecter</a></li>
             <li><a href="#">S'inscrire</a></li>
             <li><a href="#">Panier (0)</a></li>
-            <li><a href="#">La Boutique</a></li>
+            <li><a href="pages/boutique.html">La Boutique</a></li>
             <li><a href="#">Contactez nous</a></li>
             <li><a href="#">À Propos</a></li>
             <li><a href="#">Mentions légales</a></li>
@@ -49,7 +45,7 @@
         <nav>
             <ul>
                 <li><a href="#" class="accueil">Accueil</a></li>
-                <li><a href="#">La Boutique</a></li>
+                <li><a href="pages/boutique.html">La Boutique</a></li>
                 <li><a href="#">Contactez-nous</a></li>
             </ul>
         </nav>
@@ -112,8 +108,6 @@
         <i class="fab fa-twitter"></i>
         </div>
     </footer>
-    <script>
-        document.querySelector(".burger").addEventListener("click",()=> document.querySelector(".burnav").classList.toggle('open'));
-    </script>
+    <script src="js/menu.js"></script>
 </body>
 </html>

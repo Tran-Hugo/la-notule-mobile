@@ -1,0 +1,1 @@
+document.querySelector(".burger").addEventListener("click",()=> document.querySelector(".burnav").classList.toggle('open'));
