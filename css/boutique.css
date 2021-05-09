@@ -147,3 +147,62 @@ a .btn-ajouter p {
     width: 65%;
     margin-bottom: 1vh;
 }
+
+@media screen and (min-width: 768px) {
+
+    main {
+        height: 420vh; 
+    }
+
+    .boutique {
+        font-size: 1.9em;
+    }
+
+    h2 {
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        font-size: 1.9em;
+    }
+
+    .catégories li {
+        width: 90%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+    }
+
+    .xScroll {
+        width: 120vw;
+        min-width: min-content;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .vignette {
+        height: 47vh;
+        width: 35vw;
+        margin-left: 0%;
+    }
+
+    .vignette img {
+        width: 27vw;
+        height: 27vh;
+    }
+
+    .dispo {
+        width: 11vw;
+    }
+
+    a .btn-ajouter {
+        height: 4vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a .btn-ajouter p {
+        font-size: 1.3em;
+    }
+}
