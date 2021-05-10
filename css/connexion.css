@@ -1,0 +1,72 @@
+main {
+    display: flex;
+}
+
+main img {
+    width: 100%;
+    margin-top: 21vh;
+}
+
+main form {
+    background-color: rgba(255, 243, 221, 0.63);
+    width: 80vw;
+    height: 62vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    position: absolute;
+    top: 32vh;
+    left: 11vw;
+    justify-content: space-around;
+}
+
+main form h2 {
+    margin: 0;
+}
+
+.identifiant {
+    position: relative;
+    left: -12vw;
+}
+
+.mdp {
+    position: relative;
+    left: -9vw
+}
+
+main form input {
+    width: 70%;
+    border-radius: 10px;
+    margin-top: -7%;
+
+}
+
+.btn-co {
+    width: 76%;
+    background-color: rgba(245, 222, 179, 0.90);
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.btn-co p {
+    margin: 0;
+    font-size: 1.3em;
+}
+
+.btn-creer {
+    width: 76%;
+    background-color: rgba(3, 152, 158, 0.79);
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-creer p {
+    margin: 0;
+    font-size: 1.3em
+}

@@ -291,9 +291,9 @@ a .btn-ajouter p {
         width: 18vw;
     }
 
-    .vignette:hover {
+    /* .vignette:hover {
         transform: translateY(3%);
-    }
+    } */
 
     .vignette a img {
         width: 100%;
