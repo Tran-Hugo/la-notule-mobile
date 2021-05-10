@@ -27,6 +27,10 @@ main {
     margin-top: -6px;
 }
 
+.desknav {
+    display: none;
+}
+
 .center {
     width: 80%;
     background-color: white;
@@ -204,5 +208,57 @@ a .btn-ajouter p {
 
     a .btn-ajouter p {
         font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .banniere {
+        margin-top: 0;
+        height: 65vh;     
+        object-position: 0px 47%;
+    }
+
+    .boutique {
+        top: 49vh;
+        left: 40vw;
+        font-size: 3em;
+        width: 24%;
+        height: 8vh;
+    }
+
+    main {
+        justify-content: space-around;
+    }
+
+    .desknav {
+        display: block;
+        background-color: white;
+        height: min-content;
+        position: sticky;
+        top: 10vh;
+        width: 19%;
+        border: 3px solid wheat;
+    }
+
+    .center {
+        width: 79%;
+    }
+
+    h2 {
+        background-color: wheat;
+    }
+
+    .center .titre {
+        display: none;
+    }
+
+    .catégories.mobile {
+        display: none
+    }
+
+    .catégories li {
+        width: 85%;
+        font-size: 1.2em;
+        border-radius: 15px;
     }
 }
