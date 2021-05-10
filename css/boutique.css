@@ -97,8 +97,8 @@ h2 {
     margin-left: 8vw;
 }
 
-.vignette img {
-    height: 30vh;
+.vignette a img {
+    height: 27vh;
     width: 43vw;
     border-radius: 15px;
     margin-top: 1vh;
@@ -190,9 +190,9 @@ a .btn-ajouter p {
         margin-left: 0%;
     }
 
-    .vignette img {
-        width: 27vw;
-        height: 27vh;
+    .vignette a img {
+        width: 100%;
+        height: 95%;
     }
 
     .dispo {
@@ -212,6 +212,11 @@ a .btn-ajouter p {
 }
 
 @media screen and (min-width: 1024px) {
+
+    .laboutique {
+        color: #fa8072 !important;
+    }
+
     .banniere {
         margin-top: 0;
         height: 65vh;     
@@ -228,6 +233,7 @@ a .btn-ajouter p {
 
     main {
         justify-content: space-around;
+        height: 355vh;
     }
 
     .desknav {
@@ -261,4 +267,49 @@ a .btn-ajouter p {
         font-size: 1.2em;
         border-radius: 15px;
     }
+
+    .fond {
+        background-color: wheat;
+    }
+
+    .fond h2 {
+        width: min-content;
+        white-space: nowrap;
+        position: relative;
+        left: 5vw;
+    }
+
+    .hScroll {
+        overflow: unset;
+    }
+
+    .xScroll {
+        width: 100%;
+    }
+
+    .vignette {
+        width: 18vw;
+    }
+
+    .vignette:hover {
+        transform: translateY(3%);
+    }
+
+    .vignette a img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .dispo {
+        width: 5vw;
+    }
+
+    .imlink {
+        height: 51%;
+    }
+
+    .price {
+        font-size: 1.3em;
+    }
+
 }
