@@ -157,7 +157,7 @@ main form input {
     }
 }
 
-@media screen and (min-height:750px) and (max-height:882px) {
+@media screen and (min-height:750px) and (max-height:882px) and (min-width:1024px) {
     main form {
         height: 65%;
         width: 30vw;

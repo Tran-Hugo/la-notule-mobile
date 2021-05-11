@@ -314,7 +314,7 @@ a .btn-ajouter p {
 
 }
 
-@media screen and (min-height:750px) and (max-height:882px) {
+@media screen and (min-height:750px) and (max-height:882px) and (min-width: 1024px) {
     main {
         height: 362vh;
     }
