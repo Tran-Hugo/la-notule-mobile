@@ -219,6 +219,11 @@ footer p a {
         color: #fa8072;
     }
 
+    .laboutique {
+        position: relative;
+        left: 3%;
+    }
+
     .fas.fa-bars {
         display: none;
     }
@@ -352,5 +357,11 @@ footer p a {
 @media screen and (min-width: 1440px) {
     header .haut ul {
         width: 11%;
+    }
+}
+
+@media screen and (min-height:750px) and (max-height:830px) {
+    header h1 {
+        top : -25%;
     }
 }

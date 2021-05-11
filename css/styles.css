@@ -109,6 +109,10 @@ main {
         object-position: 0px 32%;
     }
 
+    .center {
+        padding-top: 0;
+    }
+
     .vignette {
         width: 23%;
         height: 50vh;
